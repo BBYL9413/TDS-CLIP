@@ -60,5 +60,5 @@ sh scripts/run_train_vision.sh configs/sthv1/sthv1_train_rgb_vitb-16-side4video.
 sh scripts/run_test_vision.sh configs/sthv1/sthv1_train_rgb_vitb-16-side4video.yaml exp_onehot/ssv1/model_best.pt --test_crops 3 --test_clips 2
 ```
 ## Acknowledgment
-Our implementation is mainly based on the following codebases. We are sincerely grateful for their work.
+Our implementation is mainly based on the following codebases. We are sincerely grateful for their work!
 - [Side4Video](https://github.com/HJYao00/Side4Video): Side4Video: Spatial-Temporal Side Network for Memory-Efficient Image-to-Video Transfer Learning.

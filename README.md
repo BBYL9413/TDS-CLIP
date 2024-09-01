@@ -3,6 +3,7 @@
 # TDS-CLIP for Video Understanding
 This is the official repo of the paper TDS-CLIP: Temporal Difference Side Network for Image-to-Video Transfer Learning
 
+[![arXiv](https://img.shields.io/badge/arXiv-2408.10688-blue?logo=arXiv&logoColor=red)](https://arxiv.org/abs/2408.10688)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tds-clip-temporal-difference-side-network-for/action-recognition-in-videos-on-something-1)](https://paperswithcode.com/sota/action-recognition-in-videos-on-something-1?p=tds-clip-temporal-difference-side-network-for)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tds-clip-temporal-difference-side-network-for/action-recognition-in-videos-on-something)](https://paperswithcode.com/sota/action-recognition-in-videos-on-something?p=tds-clip-temporal-difference-side-network-for)

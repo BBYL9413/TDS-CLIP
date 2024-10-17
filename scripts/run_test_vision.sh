@@ -8,4 +8,4 @@ fi
 
 weight=$2
 python -m torch.distributed.launch --master_port 1438 --nproc_per_node=8 \
-    test_vision11.py --config ${config} --weights ${weight} ${@:3}
+    test_vision.py --config ${config} --weights ${weight} ${@:3}

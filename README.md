@@ -81,7 +81,7 @@ sh scripts/run_train_vision.sh configs/sthv1/sthv1_train_rgb_vitb-16-side4video.
 sh scripts/run_test_vision.sh configs/sthv1/sthv1_train_rgb_vitb-16-side4video.yaml exp_onehot/ssv1/model_best.pt --test_crops 3 --test_clips 2
 ```
 
-## Citations
+## Citation
 
 ```bibtex
 @article{wangtds-clip,

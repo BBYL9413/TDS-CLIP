@@ -1,12 +1,17 @@
 
+<h3 align="center"><a href="https://arxiv.org/abs/2408.10688" style="color:#4D2B24">
+  TDS-CLIP: Temporal Difference Side Network for Efficient VideoAction Recognition</a></h3>
+    <p align="center">Bin Wang, Wentong Li, Wenqian Wang, Mingliang Gao, Runmin Cong, Wei Zhang
+</p>
+    
+<img src="method.png" width="800px">
+    
 
-# TDS-CLIP for Video Understanding
-This is the official repo of the paper TDS-CLIP: Temporal Difference Side Network for Image-to-Video Transfer Learning
 
-[![arXiv](https://img.shields.io/badge/arXiv-2408.10688-blue?logo=arXiv&logoColor=red)](https://arxiv.org/abs/2408.10688)
-
+<!---
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tds-clip-temporal-difference-side-network-for/action-recognition-in-videos-on-something-1)](https://paperswithcode.com/sota/action-recognition-in-videos-on-something-1?p=tds-clip-temporal-difference-side-network-for)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tds-clip-temporal-difference-side-network-for/action-recognition-in-videos-on-something)](https://paperswithcode.com/sota/action-recognition-in-videos-on-something?p=tds-clip-temporal-difference-side-network-for)
+-->
 
 
 ## Requirement
@@ -34,6 +39,10 @@ The annotation file is a text file with multiple lines, and each line indicates 
 ...
 <video_N> <label_N>
 ```
+
+## Perfromance
+<img src="performance.png" width="800px">
+
 ## Model Zoo
 
 Here we provide some off-the-shelf pre-trained checkpoints of our models in the following tables. More checkpoints will be provided soon.
@@ -68,6 +77,18 @@ sh scripts/run_train_vision.sh configs/sthv1/sthv1_train_rgb_vitb-16-side4video.
 ```sh
 sh scripts/run_test_vision.sh configs/sthv1/sthv1_train_rgb_vitb-16-side4video.yaml exp_onehot/ssv1/model_best.pt --test_crops 3 --test_clips 2
 ```
+
+## Citations
+
+```bibtex
+@article{wangtds-clip,
+  title = {TDS-CLIP: Temporal Difference Side Network for Efficient VideoAction Recognition},
+  author = {Bin Wang, Wentong Li, Wenqian Wang, Mingliang Gao, Runmin Cong, Wei Zhang},
+  journal={arXiv},
+  year={2024},
+  url = {http://arxiv.org/abs/2408.10688v2}
+}
+```
+
 ## Acknowledgment
-Our implementation is mainly based on the following codebases. We are sincerely grateful for their work!
-- [Side4Video](https://github.com/HJYao00/Side4Video): Side4Video: Spatial-Temporal Side Network for Memory-Efficient Image-to-Video Transfer Learning.
+We benefit from the codebase of [Side4Video](https://github.com/HJYao00/Side4Video).

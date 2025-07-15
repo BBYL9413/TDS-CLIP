@@ -41,7 +41,7 @@ The annotation file is a text file with multiple lines, and each line indicates 
 <video_N> <label_N>
 ```
 
-## Perfromance
+## Performance
  <p align="center">
 <img src="https://github.com/BBYL9413/TDS-CLIP/blob/main/lists/performance.png" width="600px">
 </p>

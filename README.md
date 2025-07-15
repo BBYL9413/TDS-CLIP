@@ -3,9 +3,10 @@
   TDS-CLIP: Temporal Difference Side Network for Efficient VideoAction Recognition</a></h3>
     <p align="center">Bin Wang, Wentong Li, Wenqian Wang, Mingliang Gao, Runmin Cong, Wei Zhang
 </p>
-    
-<img src="method.png" width="800px">
-    
+
+ <p align="center">
+<img src="https://github.com/BBYL9413/TDS-CLIP/blob/main/lists/method.png" width="950px">
+    </p>
 
 
 <!---
@@ -41,7 +42,9 @@ The annotation file is a text file with multiple lines, and each line indicates 
 ```
 
 ## Perfromance
-<img src="performance.png" width="800px">
+ <p align="center">
+<img src="https://github.com/BBYL9413/TDS-CLIP/blob/main/lists/performance.png" width="600px">
+</p>
 
 ## Model Zoo
 

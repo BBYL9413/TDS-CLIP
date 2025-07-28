@@ -494,7 +494,7 @@ class Transformer(nn.Module):
           
             k += 1
         return x_side
-
+###
 class Transformer2(nn.Module):
     def __init__(self, width: int, layers: int, heads: int, attn_mask: torch.Tensor = None, dropout=None, side_dim=384, T=8, patch_num=49):
         super().__init__()

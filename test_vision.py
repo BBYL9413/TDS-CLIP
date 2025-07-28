@@ -95,7 +95,7 @@ def main(args):
     # get fp16 model and weight
     model_name = config.network.arch
     if model_name in ["EVA02-CLIP-L-14", "EVA02-CLIP-L-14-336", "EVA02-CLIP-bigE-14", "EVA02-CLIP-bigE-14-plus"]:
-        # get evaclip model start ########
+        # get evaclip model start #########
         weight_path = {
             "EVA02-CLIP-L-14": './clip-pretrain/EVA02_CLIP_L_psz14_s4B.pt',
             "EVA02-CLIP-L-14-336": './clip-pretrain/EVA02_CLIP_L_336_psz14_s6B.pt',

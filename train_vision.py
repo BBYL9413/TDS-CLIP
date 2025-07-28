@@ -362,7 +362,7 @@ def main(args):
 
     best_prec1 = 0.0
     if config.solver.evaluate:
-        logger.info(("===========evaluate==========="))
+        logger.info(("===========evaluate=========="))
         prec1 = validate(
             start_epoch,
             val_loader, device, 
